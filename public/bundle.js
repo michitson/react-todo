@@ -117,9 +117,9 @@
 	__webpack_require__(229);
 
 	ReactDOM.render(React.createElement(
-	    P,
-	    null,
-	    'Boilerplate project'
+	  'p',
+	  null,
+	  'Boilerplate 3 project'
 	), document.getElementById("app"));
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7)))
 

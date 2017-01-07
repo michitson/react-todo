@@ -14,6 +14,6 @@ $(document).foundation();
 require('style!css!sass!applicationStyles')
 
 ReactDOM.render(
-<P>Boilerplate 3 project</P>
-    //document.getElementById("app")
+<p>Boilerplate 3 project</p>,
+  document.getElementById("app")
 );
