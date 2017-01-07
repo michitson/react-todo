@@ -25,17 +25,23 @@ module.exports = {
   },
   resolve:{
     root:__dirname,
+
+    modulesDirectories:[
+      'node_modules',
+      './app/components'
+    ],
+
     alias:{
-      // Main: 'app/components/Main.jsx',
-      // Navigation:'app/components/Navigation.jsx',
-      // Timer:'app/components/Timer.jsx',
-      // Countdown:'app/components/Countdown.jsx',
-      // CountdownForm:'app/components/CountdownForm.jsx',
-      // Clock:'app/components/Clock.jsx',
-      // Controls:'app/components/Controls.jsx',
-      // ErrorModal:'app/components/ErrorModal.jsx',
-      applicationStyles: 'app/styles/app.scss'
-    },
+        // Main: 'app/components/Main.jsx',
+        // Navigation:'app/components/Navigation.jsx',
+        // Timer:'app/components/Timer.jsx',
+        // Countdown:'app/components/Countdown.jsx',
+        // CountdownForm:'app/components/CountdownForm.jsx',
+        // Clock:'app/components/Clock.jsx',
+        // Controls:'app/components/Controls.jsx',
+        //TodoApp:'app/components/TodoApp.jsx',
+        applicationStyles: 'app/styles/app.scss'
+      },
     extensions:['','.js','.jsx']
   },
   module:{
